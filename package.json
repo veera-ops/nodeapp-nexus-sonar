@@ -1,15 +1,19 @@
 {
-  "name": "nodejs-sample-project",
+  "name": "sample-node-app",
   "version": "1.0.0",
+  "description": "A sample Node.js app with Docker, SonarQube, Nexus, and ECR integration",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "jest",
-    "build": "echo 'Build step placeholder'"
+    "start": "node app.js",
+    "test": "jest"
   },
+  "author": "Your Name",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "jest": "^29.0.0"
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3"
   }
 }
